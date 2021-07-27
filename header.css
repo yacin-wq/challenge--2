@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+
+.header-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+.image-mobl{
+    display: none;
+}
+
+.header-container .image-desc{
+    display: flex;
+    position: absolute;
+}
+
+.image-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-header .logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+    margin-bottom: 3em;
+}
+
+.header-container .text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    line-height: 30px;
+}
+h1{
+    color: hsl(210, 10%, 33%);
+}
+
+h4{
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons span{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.buttons span:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.buttons span:first-child{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.buttons span:first-child:hover{
+    background-color: hsl(171, 95%, 32%);
+}
+
+.buttons span:last-child{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.buttons span:last-child:hover{
+    background-color: hsl(233, 100%, 50%);
+}
